@@ -37,6 +37,6 @@ def json_to_csv(json_file, csv_file):
         print(f"Error: {str(e)}")
 
 if __name__ == "__main__":
-    json_file = 'sample.json'
-    csv_file = 'sample.csv'
+    json_file = 'jala.json'
+    csv_file = 'jala.csv'
     json_to_csv(json_file, csv_file)
